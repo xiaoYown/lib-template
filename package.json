@@ -1,0 +1,37 @@
+{
+  "name": "@lib-cli/lib-template",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xiaoYown <qzy09101018@sina.com>",
+  "homepage": "https://github.com/xiaoYown/lib-cli#readme",
+  "license": "ISC",
+  "main": "lib/cjs/lib-template.js",
+  "module": "lib/esm/lib-template.js",
+  "bundle": "lib/browser/lib-template.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoYown/lib-cli.git"
+  },
+  "scripts": {
+    "dev": "lib-cli dev",
+    "build": "lib-cli build"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaoYown/lib-cli/issues"
+  },
+  "dependencies": {
+    "@lib-cli/lib-cli": "^0.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
