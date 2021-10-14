@@ -3,3 +3,4 @@ function templateEg () {
 }
 
 export default templateEg;
+

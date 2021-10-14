@@ -8,6 +8,7 @@
   "main": "lib/cjs/lib-template.js",
   "module": "lib/esm/lib-template.js",
   "bundle": "lib/browser/lib-template.js",
+  "types": "lib/esm/lib-template.d.ts",
   "directories": {
     "lib": "lib"
   },
@@ -28,10 +29,7 @@
   "bugs": {
     "url": "https://github.com/xiaoYown/lib-cli/issues"
   },
-  "dependencies": {
-    "@lib-cli/lib-cli": "^0.0.0"
-  },
   "devDependencies": {
-    "typescript": "^4.4.4"
+    "@lib-cli/lib-cli": "^0.0.0"
   }
 }
