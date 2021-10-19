@@ -5,10 +5,10 @@
   "author": "xiaoYown <qzy09101018@sina.com>",
   "homepage": "https://github.com/xiaoYown/lib-cli#readme",
   "license": "ISC",
-  "main": "lib/cjs/lib-template.js",
-  "module": "lib/esm/lib-template.js",
-  "bundle": "lib/browser/lib-template.js",
-  "types": "lib/esm/lib-template.d.ts",
+  "main": "lib/cjs/index.js",
+  "bundle": "lib/browser/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/esm/index.d.ts",
   "directories": {
     "lib": "lib"
   },
@@ -23,13 +23,10 @@
     "url": "git+https://github.com/xiaoYown/lib-cli.git"
   },
   "scripts": {
-    "dev": "lib-cli dev",
-    "build": "lib-cli build"
+    "dev": "lib-cli dev -t",
+    "build": "lib-cli build -t"
   },
   "bugs": {
     "url": "https://github.com/xiaoYown/lib-cli/issues"
-  },
-  "devDependencies": {
-    "@lib-cli/lib-cli": "^0.0.0"
   }
 }
