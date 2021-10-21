@@ -1,9 +1,0 @@
-{
-  "name": "eg-1",
-  "version": "1.0.0",
-  "description": "",
-  "module": "../../../lib/modules/eg-1/index.js",
-  "types": "../../../lib/modules/eg-1/index.d.ts",
-  "author": "",
-  "license": "ISC"
-}

@@ -28,5 +28,8 @@
   },
   "bugs": {
     "url": "https://github.com/xiaoYown/lib-cli/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.2"
   }
 }
