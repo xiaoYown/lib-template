@@ -23,8 +23,8 @@
     "url": "git+https://github.com/xiaoYown/lib-cli.git"
   },
   "scripts": {
-    "dev": "lib-cli dev -t",
-    "build": "lib-cli build -t"
+    "dev": "lib-cli dev -t -s",
+    "build": "lib-cli build -t -s"
   },
   "bugs": {
     "url": "https://github.com/xiaoYown/lib-cli/issues"
