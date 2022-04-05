@@ -5,10 +5,10 @@
   "author": "xiaoYown <qzy09101018@sina.com>",
   "homepage": "https://github.com/xiaoYown/lib-cli#readme",
   "license": "ISC",
-  "main": "lib/cjs/lib-template.js",
-  "module": "lib/esm/lib-template.js",
-  "bundle": "lib/browser/lib-template.js",
-  "types": "lib/esm/lib-template.d.ts",
+  "main": "lib/index.cjs",
+  "module": "lib/index.mjs",
+  "bundle": "lib/index.js",
+  "types": "index.d.ts",
   "directories": {
     "lib": "lib"
   },
@@ -49,6 +49,7 @@
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
     "prettier": "^2.3.2",
+    "tslib": "^2.3.1",
     "typescript": "^4.4.4"
   },
   "lint-staged": {
