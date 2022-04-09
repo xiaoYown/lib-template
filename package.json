@@ -8,7 +8,7 @@
   "main": "lib/index.cjs",
   "module": "lib/index.mjs",
   "bundle": "lib/index.js",
-  "types": "index.d.ts",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib"
   },
