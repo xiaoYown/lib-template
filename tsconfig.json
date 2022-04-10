@@ -16,7 +16,6 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "outDir": "./lib/esm",
     "lib": [
       "dom",
       "es2015",
